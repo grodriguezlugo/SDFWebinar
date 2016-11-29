@@ -1,4 +1,13 @@
 <manifest projecttype="ACCOUNTCUSTOMIZATION">
   <projectname>SDFWebinar</projectname>
   <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="false">MATRIXITEMS</feature>
+      <feature required="true">CUSTOMRECORDS</feature>
+      <feature required="false">EXTREMELIST</feature>
+      <feature required="false">DOCUMENTS</feature>
+      <feature required="false">MAILMERGE</feature>
+    </features>
+  </dependencies>
 </manifest>
